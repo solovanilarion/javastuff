@@ -1,8 +1,0 @@
-rootProject.name = 'labb'
-include 'Client'
-include 'Model'
-include 'Networking'
-include 'Persistance'
-include 'Server'
-include 'Services'
-
