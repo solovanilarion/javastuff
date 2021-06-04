@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" stylesheets="@../style/inscriereViewStyle.css" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1" fx:controller="concurs.client.gui.InscriereViewController">
+   <top>
+      <AnchorPane prefHeight="80.0" prefWidth="600.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label fx:id="labelTitlu" layoutX="140.0" layoutY="30.0" text="Inscrierea participantului" textAlignment="CENTER" />
+         </children>
+      </AnchorPane>
+   </top>
+   <left>
+      <AnchorPane prefHeight="325.0" prefWidth="600.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label fx:id="labelNume" layoutX="42.0" layoutY="40.0" text="Nume" />
+            <TextField fx:id="textfieldNume" layoutX="109.0" layoutY="36.0" prefHeight="25.0" prefWidth="170.0" />
+            <Label fx:id="labelPrenume" layoutX="38.0" layoutY="90.0" text="Prenume" />
+            <TextField fx:id="textfieldPrenume" layoutX="109.0" layoutY="86.0" prefHeight="25.0" prefWidth="170.0" />
+            <Label fx:id="labelVarsta" layoutX="42.0" layoutY="140.0" text="Varsta" />
+            <ComboBox fx:id="comboboxProba2" layoutX="391.0" layoutY="136.0" onAction="#handleCombobox" prefHeight="25.0" prefWidth="171.0" />
+            <ComboBox fx:id="comboboxProba1" layoutX="391.0" layoutY="36.0" onAction="#handleCombobox" prefHeight="25.0" prefWidth="171.0" />
+            <ComboBox fx:id="comboboxVarsta" layoutX="122.0" layoutY="137.0" onAction="#handleCombobox" prefHeight="25.0" prefWidth="60.0" />
+            <Label fx:id="labelProba1" layoutX="328.0" layoutY="40.0" text="Proba1" />
+            <Label fx:id="labelProba2" layoutX="328.0" layoutY="140.0" text="Proba2" />
+            <Button fx:id="buttonInscriere" layoutX="130.0" layoutY="210.0" mnemonicParsing="false" onAction="#handleButtonInscriere" text="Inscriere" />
+            <Label fx:id="labelCategoria1" layoutX="323.0" layoutY="90.0" text="Categoria1" />
+            <TextField fx:id="textfieldCategoria1" disable="true" layoutX="415.0" layoutY="86.0" prefHeight="25.0" prefWidth="110.0" />
+            <Label fx:id="labelCategoria2" layoutX="323.0" layoutY="190.0" text="Categoria2" />
+            <TextField fx:id="textfieldCategoria2" disable="true" layoutX="415.0" layoutY="186.0" prefWidth="110.0" />
+         </children>
+      </AnchorPane>
+   </left>
+</BorderPane>

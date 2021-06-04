@@ -1,0 +1,42 @@
+.tab-pane .tab{
+    -fx-background-color: #fff4b3;
+}
+
+.tab-pane .tab:selected{
+    -fx-background-color: #ffe866;
+}
+
+.tab:selected .focus-indicator {
+    -fx-border-radius: 10 10 0 0, 10 10 0 0;
+    -fx-border-insets: -6 -9 -8 -8, -5 -8 -7 -7;
+}
+
+.tab-header-area .tab{
+    -fx-padding:4 10 4 10;
+    -fx-background-radius: 10 10 0 0;
+}
+
+.tab .tab-label {
+    -fx-alignment: CENTER;
+    -fx-text-fill: #00008B;
+    -fx-font-size: 16px;
+    -fx-font-family: "Times New Roman";
+}
+
+.tab:selected .tab-label {
+    -fx-alignment: CENTER;
+    -fx-font-weight: bold;
+}
+
+#buttonDeconectare{
+    -fx-font-family: "Times New Roman";
+    -fx-background-color: #8669da;
+    -fx-background-radius: 30;
+    -fx-background-insets: 0,1,1;
+    -fx-padding: 6 9 6 9;
+    -fx-text-fill: black;
+    -fx-font-size: 14px;
+}
+#buttonDeconectare:hover{
+    -fx-background-color: #ac99e6;
+}
