@@ -1,0 +1,12 @@
+
+N	java:S106&"9Replace this use of System.out or System.err by a logger.(²Â°¸
+S	java:S106)"9Replace this use of System.out or System.err by a logger.(âıš¡úÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(²À©ê
+M	java:S106"9Replace this use of System.out or System.err by a logger.(¾ğ›1
+N	java:S106"9Replace this use of System.out or System.err by a logger.(¶’
+N
+java:S18543"8Remove this useless assignment to local variable "root".(î´¢Ò
+M	java:S106%"9Replace this use of System.out or System.err by a logger.(Œº=
+N	java:S106("9Replace this use of System.out or System.err by a logger.(’€„
+H
+java:S1128"-Remove this unused import 'javafx.fxml.FXML'.(ÃÚ¢„şÿÿÿÿ

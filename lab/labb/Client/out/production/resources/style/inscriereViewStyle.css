@@ -1,0 +1,23 @@
+#labelNume,#labelPrenume,#labelVarsta,#labelProba1,#labelProba2,#labelCategoria1,#labelCategoria2{
+    -fx-font-family: "Times New Roman";
+    -fx-text-fill:#00008B;
+    -fx-font-size: 17px;
+}
+
+#buttonInscriere{
+    -fx-font-family: "Times New Roman";
+    -fx-background-color: #ffd700;
+    -fx-background-radius: 30;
+    -fx-background-insets: 0,1,1;
+    -fx-padding: 8 11 8 11;
+    -fx-text-fill: black;
+    -fx-font-size: 18px;
+}
+#buttonInscriere:hover{
+    -fx-background-color:#ffe866;
+}
+#labelTitlu{
+    -fx-font-weight: bold;
+    -fx-font-family:"Arial";
+    -fx-font-size:28px;
+}
